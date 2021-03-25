@@ -1,0 +1,19 @@
+{
+  "name": "truffle-init",
+  "version": "1.0.0",
+  "description": "$ truffle console --network ropsten\r accounts #display accounts",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^1.2.4",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
