@@ -33,17 +33,11 @@ module.exports = {
       network_id: 100,       // Ropsten's id
       gas: 2000000,        // Ropsten has a lower block limit than mainnet
     },
-
-
-
-
-    // Useful for private networks
-    // private: {
-      // provider: () => new HDWalletProvider(mnemonic, `https://network.io`),
-      // network_id: 2111,   // This network is yours, in the cloud.
-      // production: true    // Treats this network as if it was a public net. (default: false)
-    // }
   },
+
+
+  // TruffleConfig.networks.mainnet.gasPrice = 1e11; // 100 Gwei
+
 
   // Set default mocha options here, use special reporters etc.
   mocha: {
