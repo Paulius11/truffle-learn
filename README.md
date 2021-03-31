@@ -96,3 +96,10 @@ uint8 = 2 ** 8 = 255
 1 GWei = 0.000000001 Ether
 4 GWei = 4000000000 Wei
 `
+
+```
+assert(1 wei == 1);
+assert(1 szabo == 1e12);
+assert(1 finney == 1e15);
+assert(1 ether == 1e18);
+```
