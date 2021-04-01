@@ -87,6 +87,7 @@ app.getPlayers() // Sender account is added to a list
 # Units
 
 https://eth-converter.com/
+https://docs.soliditylang.org/en/v0.8.3/units-and-global-variables.html
 
 `
 uint8 = 2 ** 8 = 255
